@@ -33,9 +33,7 @@
 
 ### Seismic
 
-* All seismic data is updated when you reply 'Y' to the **question**.
-* **String moments need**
-* **Problem with SEISAN data.**
+See section titled **Event Counts** in *MVOM_042-Plots_and_Tables_for_the_Six_Monthly_Report.pdf*.
 
 ### GPS
 
@@ -52,7 +50,10 @@ $ cp /mnt/volcano01/Deformation/GPS_auto/data/final/*.txt .
 ### SO2
 
 * Add latest mean and std dev data to *./data/gas/SO2_traverse_data_from_TC_latest.csv*.
-* Data will be updated when you  reply 'Y' to the **question**.
+* In MATLAB
+```
+>> fetchGas
+```
 
 ### Other
 
