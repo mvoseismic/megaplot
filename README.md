@@ -38,7 +38,7 @@ See section titled **Event Counts** in *MVOM_042-Plots_and_Tables_for_the_Six_Mo
 ### GPS
 
 * Copy data to local directory
-*These commands are now included in fetchGps.m.*
+* *These commands are now included in fetchGps.m.*
 ```
 $ cd ~/src/megaplot/data/gps/gps-auto-final
 $ cp /mnt/volcano01/Deformation/GPS_auto/data/final/*.txt .
