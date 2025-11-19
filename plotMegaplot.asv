@@ -581,8 +581,6 @@ for iTile = 1:tilesN
             if tileWhat == 'seisAll' | contains( tileWhat, 'VT' )
                 ylim( [0 ylimSeis] );
             else
-                ylim( [0 maxSeis] * yLimMult );
-            end
         end
 
         
